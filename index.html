@@ -9,6 +9,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>ソフトウェア開発みくじ</title>
+    <script src="random-fortune.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,8 @@
         <div id="home" class="d-flex justify-content-center flex-column align-items-center">
             <h1>ソフトウェア開発みくじ</h1>
             <img src="https://acha0203.github.io/SW_Dev_Omikuji/images/syougatsu2_omijikuji2.png" alt="" class="src">
-            <div class="btn btn-danger my-3">おみくじを引く</div>
+            <button id="draw-omikuji" type="button" onclick="seeResult(); event.preventDefault()"
+                class="btn btn-danger rounded-pill yuji-syuku"> おみくじを引く</button>
             <div id="remarks" class="d-flex justify-content-center">
                 <p class="p-1">
                     <a href="about.html">このおみくじについて</a>
@@ -27,8 +29,8 @@
             <div id="copyright">©ソフトウェア開発みくじ</div>
         </div>
     </div>
-
-    <div id="result" class="d-none">おみくじ結果ページ</div>
+    <div id="result" class="d-none"></div>
+    <script type="text/javascript" src="result.js"></script>
 </body>
 
 </html>

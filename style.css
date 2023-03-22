@@ -5,3 +5,46 @@
 #remarks {
     font-size: 0.8rem;
 }
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* Omikuji*/
+.omikuji {
+    width: 280px;
+    height: auto;
+    border: thick double #ff0000;
+    outline: 0.2rem solid #ff0000;
+}
+
+.illust {
+    width: 260px;
+}
+
+.fortune {
+    font-size: 5rem;
+}
+
+.line-red {
+    border-top: 2px solid #ff0000;
+    width: 260px;
+}
+
+/* Effect */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
