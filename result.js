@@ -60,19 +60,17 @@ function makeResult(omikujiData) {
               <div>
               <p class="text-danger yuji-syuku p-3">
               ${omikujiData["詳細"]}
-            　</p>
-            　</div>
+              </p>
+              </div>
               <div class="mb-3">
                 <hr class="line-red" />
                 <p class="text-danger yuji-syuku text-center">✿ ラッキー言語 ✿</p>
-                <h5 class="text-danger yuji-syuku text-center">${omikujiData["言語"]
-    }</h5>
+                <h5 class="text-danger yuji-syuku text-center">${omikujiData["言語"]}</h5>
                 <hr class="line-red" />
                 <p class="text-danger yuji-syuku text-center">
                   ✿ ラッキーデータベース ✿
                 </p>
-                <h5 class="text-danger yuji-syuku text-center">${omikujiData["データベース"]
-    }</h5>
+                <h5 class="text-danger yuji-syuku text-center">${omikujiData["データベース"]}</h5>
                 <hr class="line-red" />
                 <p class="text-danger yuji-syuku text-center">
                   ✿ ラッキーエディタ ✿
