@@ -1,0 +1,12 @@
+.omikuji {
+    width: 280px;
+    border: thick double red
+}
+
+ul {
+    padding-inline-start: 2rem;
+}
+
+#copyright {
+    font-size: 0.6rem;
+}
