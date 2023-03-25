@@ -4,6 +4,7 @@
 
 #remarks {
     font-size: 0.8rem;
+    color: inherit;
 }
 
 body {
@@ -14,6 +15,15 @@ body {
 ul {
     list-style-type: square;
     padding-inline-start: 2rem;
+    margin: 0;
+}
+
+.rounded-pill{
+    border-radius: 50rem;
+}
+
+::marker{
+    color: #dc3545!important;
 }
 
 /* Omikuji*/
@@ -44,7 +54,6 @@ ul {
 /* Effect */
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
