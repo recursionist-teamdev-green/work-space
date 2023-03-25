@@ -4,6 +4,7 @@
 
 #remarks {
     font-size: 0.8rem;
+    color: inherit;
 }
 
 body {
@@ -13,6 +14,16 @@ body {
 
 ul {
     list-style-type: square;
+    padding-inline-start: 2rem;
+    margin: 0;
+}
+
+.rounded-pill{
+    border-radius: 50rem;
+}
+
+::marker{
+    color: #dc3545!important;
 }
 
 /* Omikuji*/
@@ -21,6 +32,10 @@ ul {
     height: auto;
     border: thick double #ff0000;
     outline: 0.2rem solid #ff0000;
+}
+
+.yuji-syuku{
+    font-family: 'Yuji Syuku', serif;
 }
 
 .illust {

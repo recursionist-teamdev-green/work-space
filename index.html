@@ -14,21 +14,22 @@
 
 <body>
     <div id="home" class="d-block">
-        <div class="d-flex vh-100 justify-content-center flex-column align-items-center">
-            <h1>ソフトウェア開発みくじ</h1>
+        <div class="d-flex vh-100 justify-content-center yuji-syuku flex-column align-items-center">
+            <h1 class="text-danger">ソフトウェア開発</h1>
+            <h1 class="text-danger">みくじ</h1>
             <img src="https://acha0203.github.io/SW_Dev_Omikuji/images/syougatsu2_omijikuji2.png" alt="" class="src">
             <button id="draw-omikuji" type="button" onclick="seeResult(); event.preventDefault()"
-                class="btn btn-danger rounded-pill yuji-syuku"> おみくじを引く</button>
+                class="btn btn-danger rounded-pill yuji-syuku my-3"> おみくじを引く</button>
             <div id="remarks" class="d-flex justify-content-center">
-                <p class="p-1">
-                    <a href="about.html">このおみくじについて</a>
-                </p>
-                <p class="p-1">|</p>
+                <a href="about.html">
+                    <p class="p-1 text-danger yuji-syuku">このおみくじについて</p>
+                </a>
+                <p class="p-1 text-danger yuji-syuku">|</p>
                 <a href="developer.html">
-                    <p class="p-1">開発者一覧</p>
+                    <p class="p-1 text-danger">開発者一覧</p>
                 </a>
             </div>
-            <div id="copyright">©ソフトウェア開発みくじ</div>
+            <div id="copyright" class="text-danger yuji-syuku">©ソフトウェア開発みくじ</div>
         </div>
     </div>
     <div id="result" class="d-none"></div>
