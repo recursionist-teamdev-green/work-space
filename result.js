@@ -28,7 +28,7 @@ function backToHome() {
 
 function makeResult(omikujiData) {
   const container = document.createElement('div');
-  container.classList.add('overflow-scroll', 'p-2');
+  container.classList.add('overflow-auto', 'p-2');
 
   const omikuji = document.createElement('div');
   omikuji.classList.add(
