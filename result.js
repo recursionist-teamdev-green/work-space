@@ -35,7 +35,6 @@ function makeResult(omikujiData) {
     'omikuji',
     'bg-white',
     'd-flex',
-    'justify-content-start',
     'align-items-center',
     'flex-column',
     'my-3'

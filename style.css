@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
 }
 
@@ -24,6 +24,10 @@ ul {
 
 ::marker{
     color: #dc3545!important;
+}
+
+.overflow-scroll {
+    overflow: scroll;
 }
 
 /* Omikuji*/
