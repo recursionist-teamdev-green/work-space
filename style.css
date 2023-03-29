@@ -38,6 +38,10 @@ ul {
     outline: 0.2rem solid #ff0000;
 }
 
+.vh100 {
+    height: 100vh!important;
+}
+
 .yuji-syuku{
     font-family: 'Yuji Syuku', serif;
 }

@@ -30,6 +30,13 @@ function makeResult(omikujiData) {
   const container = document.createElement('div');
   container.classList.add('overflow-scroll', 'p-2');
 
+  const temp = document.createElement('div');
+  temp.classList.add(
+    'd-flex',
+    'vh100',
+    'justify-content-center',
+  )
+
   const omikuji = document.createElement('div');
   omikuji.classList.add(
     'omikuji',
@@ -37,7 +44,7 @@ function makeResult(omikujiData) {
     'd-flex',
     'align-items-center',
     'flex-column',
-    'my-3'
+    'my-3',
   );
 
   omikuji.innerHTML = `
@@ -52,9 +59,9 @@ function makeResult(omikujiData) {
                 <hr class="line-red" />
               </div>
               <div>
-                <p class="text-danger yuji-syuku p-3">
+                <h1 class="text-danger yuji-syuku text-center p-3">
                   ${omikujiData["結果"]}
-                </p>
+                </h1>
               </div>
               <div>
               <p class="text-danger yuji-syuku p-3">
