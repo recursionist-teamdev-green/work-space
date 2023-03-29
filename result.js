@@ -35,6 +35,8 @@ function makeResult(omikujiData) {
     'd-flex',
     'vh100',
     'justify-content-center',
+    'align-items-center',
+    'flex-column'
   )
 
   const omikuji = document.createElement('div');
@@ -101,9 +103,9 @@ function makeResult(omikujiData) {
     .addEventListener('click', function () {
       backToHome();
     });
-
+  temp.append(container)
   container.append(omikuji);
-  return container;
+  return temp;
 }
 
 
