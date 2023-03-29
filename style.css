@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
 }
 
@@ -26,12 +26,20 @@ ul {
     color: #dc3545!important;
 }
 
+.overflow-scroll {
+    overflow: scroll;
+}
+
 /* Omikuji*/
 .omikuji {
     width: 280px;
     height: auto;
     border: thick double #ff0000;
     outline: 0.2rem solid #ff0000;
+}
+
+.vh100 {
+    height: 100vh!important;
 }
 
 .yuji-syuku{
